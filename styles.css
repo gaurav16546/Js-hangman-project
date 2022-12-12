@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: cornflowerblue;
+  color: #ffeecb;
+}
+header h1,
+h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+header h3 {
+  font-size: 40px;
+}
+main p {
+  text-align: center;
+  font-size: 20px;
+}
+#alphabets {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+#alphabets .letter {
+  margin: 5px 8px;
+  border: 1px solid #d8c49c;
+  padding: 15px;
+  background-color: #634100;
+}
+#categories, #selected-category {
+  text-align: center;
+  margin: 50px;
+}
+.categories-button {
+  margin: 3px 10px;
+  font-size: 20px;
+  padding: 6px;
+  color: white;
+  opacity: 70%;
+  background-color: blueviolet;
+}
+#cate
