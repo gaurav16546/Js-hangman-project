@@ -17,7 +17,8 @@ h3 {
 header h3 {
   font-size: 40px;
 }
-main p {
+main p,
+#restart-game {
   text-align: center;
   font-size: 20px;
 }
@@ -33,11 +34,13 @@ main p {
   padding: 15px;
   background-color: #634100;
 }
-#categories, #selected-category {
+#categories,
+#selected-category {
   text-align: center;
   margin: 50px;
 }
-.categories-button {
+.categories-button,
+#restart-game {
   margin: 3px 10px;
   font-size: 20px;
   padding: 6px;
@@ -45,4 +48,21 @@ main p {
   opacity: 70%;
   background-color: blueviolet;
 }
-#cate
+#guess-section {
+  text-align: center;
+  font-size: 40px;
+}
+#life-left {
+  margin-top: 40px;
+  text-align: center;
+}
+div #restart-game {
+  margin-top: 40px;
+  border-radius: 13%;
+  background-color: purple;
+}
+#restart-wrapper,
+#alphabets {
+  display: flex;
+  justify-content: center;
+}
